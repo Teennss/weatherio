@@ -1,6 +1,8 @@
 "use strict";
 
 const api_key = "ee49293d4cf1aab571442bf396520abc";
+
+let api_key = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${ee49293d4cf1aab571442bf396520abc}`;
 /**
  *@param {string} URL API url
  *@param {Function} callback callback
